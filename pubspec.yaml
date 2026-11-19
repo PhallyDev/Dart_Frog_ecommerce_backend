@@ -1,0 +1,21 @@
+name: shop_ease_ecommerce
+description: ShopEase ecommerce REST API backend
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  crypto: 3.0.3
+  cryptography: 2.9.0
+  dart_frog: ^1.2.6
+  dart_jsonwebtoken: 3.4.1
+  dotenv: ^4.2.0
+  mailer: 7.2.0
+  mongo_dart: ^0.10.10
+
+dev_dependencies:
+  dart_frog_lint: ^0.1.0
+  mocktail: ^1.0.0
+  test: ^1.0.0
