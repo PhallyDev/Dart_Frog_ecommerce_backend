@@ -1,3 +1,5 @@
+// ignore_for_file: public_member_api_docs
+
 import 'dart:convert';
 
 import 'package:crypto/crypto.dart';
@@ -59,7 +61,7 @@ class KhqrGenerator {
   static String _field(String tag, String value) {
     final length = value.length;
     if (tag.length != 2 || length > 99) {
-      throw FormatException('Invalid KHQR EMV field length.');
+      throw const FormatException('Invalid KHQR EMV field length.');
     }
     return '$tag${length.toString().padLeft(2, '0')}$value';
   }

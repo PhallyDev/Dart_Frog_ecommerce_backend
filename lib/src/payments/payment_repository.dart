@@ -1,3 +1,5 @@
+// ignore_for_file: public_member_api_docs
+
 import 'package:mongo_dart/mongo_dart.dart';
 import 'package:shop_ease_ecommerce/src/database/collection_names.dart';
 import 'package:shop_ease_ecommerce/src/database/mongo_database.dart';

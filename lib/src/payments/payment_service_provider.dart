@@ -1,3 +1,5 @@
+// ignore_for_file: public_member_api_docs
+
 import 'package:dart_frog/dart_frog.dart';
 import 'package:shop_ease_ecommerce/src/config/app_config.dart';
 import 'package:shop_ease_ecommerce/src/database/mongo_database_provider.dart';

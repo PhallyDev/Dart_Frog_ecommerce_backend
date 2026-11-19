@@ -1,6 +1,8 @@
+// ignore_for_file: public_member_api_docs
+
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-import 'dart:async';
 
 import 'package:shop_ease_ecommerce/src/config/app_config.dart';
 import 'package:shop_ease_ecommerce/src/errors/api_exception.dart';
@@ -52,7 +54,7 @@ class BakongApiClient {
         );
       }
       if (response.statusCode < 200 || response.statusCode >= 300) {
-        throw ApiException(
+        throw const ApiException(
           statusCode: HttpStatus.badGateway,
           code: 'bakong_api_error',
           message: 'Bakong payment verification is temporarily unavailable.',

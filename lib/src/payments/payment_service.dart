@@ -1,3 +1,5 @@
+// ignore_for_file: lines_longer_than_80_chars, curly_braces_in_flow_control_structures, public_member_api_docs
+
 import 'dart:io';
 
 import 'package:mongo_dart/mongo_dart.dart';
